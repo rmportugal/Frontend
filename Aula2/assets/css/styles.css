@@ -1,0 +1,30 @@
+body {
+  background-image: url(../images/Sharingan-pixabay.webp);
+  background-position: end;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p {
+  color: blanchedalmond;
+  text-align: center;
+  border-color: azure;
+  border-width: 6px;
+  /* border-style: double; */
+  border-bottom-style: groove;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+}
+
+div h1 {
+  color: coral;
+  text-align: center;
+}
+
+
+/* Clasee e mais especifica que um seletor generico */
+.primeira{
+    font-size: xx-large;
+    color:magenta;
+  text-align: center;
+}
