@@ -66,7 +66,7 @@ while (count < 5) {
 
 do {
   console.log(count1);
-} while (count < 3);*/
+} while (count < 3);
 
 
 //Funções
@@ -90,3 +90,40 @@ function soma(num1, num2){
 
 console.log("Resultado da soma: " + soma(1,5));
 console.log("Resultado da soma: " + soma(89,12));
+
+//Arrow Function
+
+const multiplica = (num1, num2) =>{
+    console.log("Resuiltado:" + num1 * num2)
+}
+
+multiplica(2,5)
+
+const objeto = {
+    chave:"valor",
+    numero: 53 ,
+    booleano: false,
+    obj: {
+        chaves: "valores"
+    }
+}
+
+const impares =[1, 3, 5, 7]
+const coisas = [1,false,{chave: "valor"}, [0, 1, true]]//Pode misturar tudo */
+
+const top3 = [
+    {
+        nome:"Produto 1",
+        valor: "35.00"
+    },
+    {
+        nome: "Produto 2",
+        valor: "48.00"
+    },
+    {
+        nome: "Produto 3",
+        valor: "12.00"
+    }
+]
+
+top3.forEach(eitem => console.log(item.nome))
