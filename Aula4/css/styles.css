@@ -55,6 +55,7 @@ h1 {
 .row {
   border: 5px solid orange;
   padding: 10px;
+  align-items: center;
 }
 
 .col {
@@ -82,3 +83,8 @@ h1 {
   font-size: xx-large;
   margin-top: 5px;
 }
+
+#minha-row{
+    height: 150px;
+}
+
