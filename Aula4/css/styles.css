@@ -1,0 +1,84 @@
+h1 {
+  color: hotpink;
+  background-color: black;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    color: yellow;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    color: rgb(1, 10, 22);
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    color: rgb(0, 255, 128);
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    color: rgb(255, 0, 0);
+  }
+}
+@media (min-width: 1400px) {
+  h1 {
+    color: rgb(0, 255, 76);
+  }
+}
+
+.meu-botao {
+  background-color: turquoise;
+  color: orangered;
+  margin-bottom: 30px;
+}
+/* explicação do container */
+/* .container,
+.container-fluid {
+  background-color: black;
+  color: yellowgreen;
+  font-size: larger;
+  font-weight: 100;
+  padding: 30px;
+  margin-top: 20px;
+} */
+
+.container,
+.container-fluid {
+  border: 5px dotted midnightblue;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.row {
+  border: 5px solid orange;
+  padding: 10px;
+}
+
+.col {
+  border: 2px dashed red;
+  padding: 10px;
+}
+
+.display-flex {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background-color: darkmagenta;
+  margin-top: auto;
+  flex-direction: row-reverse; /*eixo pricipal*/
+  justify-content: space-around; /*direção do eixo principal horizontal*/
+  align-items: center; /*direção do eixo perpendicular vertical*/
+}
+
+.minha-div {
+  height: 100px;
+  width: 200px;
+  background-color: aquamarine;
+  border: 1px solid;
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 5px;
+}
