@@ -1,0 +1,33 @@
+body{
+    background-color: darkgrey;
+}
+
+.container{
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+    margin:25px auto;
+    box-shadow: 22px 24px 20px -7px rgba(0,0,0,0.75);
+}
+
+.btn.btn-primary{
+    background-color: firebrick;
+    width: 100%;
+}
+/* @media(min-width:768px){
+    .btn.btn-primary{
+        width: auto;
+    }
+} */
+.esqueceu-senha{
+    text-align: center;
+}
+
+h1{
+   color: rgba(21, 235, 21, 0.664); 
+}
+
+.bi{
+    font-size: 32px;
+    color: gold;
+}
