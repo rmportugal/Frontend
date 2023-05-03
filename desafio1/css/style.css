@@ -1,55 +1,70 @@
 .container {
-  color: aliceblue;
-  background-color: dodgerblue;
-  margin-top: 70px;
-  border-radius: 25px;
+  color: white;
+  margin-top: 55px;
 }
 
+.row {
+  display: flex;
+  border: 0;
+}
 .col {
+  background-color: dodgerblue;
   border: 5px solid;
+  border-radius: 10px;
 }
 
 .display-flex {
-    display:flex;
-    height: 800px;
-    width: 100%;
-    flex-direction: column ; /*eixo pricipal*/
-    justify-content: flex-start; /*direção do eixo principal horizontal*/
-    align-items: flex-end; /*direção do eixo perpendicular vertical*/
-  }
-
-  .display-flex-1 {
-    display:flex;
-    height: 16px;
-    width: 100%;
-    flex-direction: row ; /*eixo pricipal*/
-    align-items: flex-start; /*direção do eixo perpendicular vertical*/
-  }
-
-  .principal{
-    display:flex;
-    width: 900px;
-    height: 600px;
-    background-color: grey;
-    margin-top: 50px;
-    margin-left: 165px;
+  display: flex;
+  flex-direction: column; /*eixo pricipal*/
+  align-items: flex-end; /*direção do eixo perpendicular vertical*/
 }
 
-  .minha-div {
-    height: 300px;
-    width: 300px;
-    background-color: aquamarine;
-    text-align: center;
-    font-size: xx-large;
-    margin-top: 35px;
-    margin-right: 163px;
-  }
+.display-flex-1 {
+  display: flex;
+  height: 16px;
+  width: 100%;
+  flex-direction: row; /*eixo pricipal*/
+  align-items: flex-start; /*direção do eixo perpendicular vertical*/
+}
 
-  .container2 {
-    display: flex;
-    color: aliceblue;
-    background-color: dodgerblue;
-    margin-right: 560px;
-    margin-left: 165px;
-    flex-direction: column;
-  }
+.principal {
+  width: 800px;
+  height: 500px;
+  background-color: grey;
+  margin-top: 50px;
+  margin-left: 165px;
+}
+
+.minha-div {
+  height: 120px;
+  width: 200px;
+  background-color: aquamarine;
+  text-align: center;
+  margin-right: 200px;
+  margin-bottom: 10px;
+}
+
+.container-fluid {
+  display: flex;
+  padding-left: 200px;
+  padding-right: 600px;
+  flex-direction: column;
+  align-items: start;
+}
+
+.nav-bar {
+  color: darkgray;
+}
+
+.col-2 {
+  background-color: white;
+  border: 5px solid;
+  width: 1350px;
+}
+.col-1 {
+  background-color: white;
+  border: 5px solid;
+}
+.col-3 {
+  background-color: dodgerblue;
+}
