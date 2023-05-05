@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nova-tarefa {
+    margin-bottom: 35px;
+}
+
+#msg-erro {
+    margin: 0;
+    font-size: 8px;
+    color: rgb(224, 7, 7);
+    font-style: italic;
+    display: none;
+}
