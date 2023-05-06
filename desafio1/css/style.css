@@ -1,32 +1,45 @@
+body{
+  width: 100%;
+}
+
 .container {
+width: 100%;
   color: white;
   margin-top: 55px;
 }
 
 .row {
+  width: 100%;
   display: flex;
   border: 0;
 }
 .col {
+  width: 100%;
   background-color: dodgerblue;
-  border: 5px solid;
+  border: 5px solid white;
   border-radius: 10px;
 }
 
-.display-flex {
+.container-lista {
+  width: 100%;
+  margin-top: 35px;
+  position: absolute;
+  width: 100%;
   display: flex;
-  flex-direction: column; /*eixo pricipal*/
-  align-items: flex-end; /*direção do eixo perpendicular vertical*/
+  flex-direction: column; 
+  align-items: flex-end; 
 }
 
 .display-flex-1 {
+  width: 100%;
   display: flex;
   height: 16px;
   width: 100%;
-  flex-direction: row; /*eixo pricipal*/
-  align-items: flex-start; /*direção do eixo perpendicular vertical*/
+  flex-direction: row; 
+  align-items: flex-start; 
 }
 
+  
 .principal {
   width: 800px;
   height: 500px;
@@ -36,8 +49,9 @@
 }
 
 .minha-div {
-  height: 120px;
-  width: 200px;
+  width: 100%;
+  height: 160px;
+  width: 300px;
   background-color: aquamarine;
   text-align: center;
   margin-right: 200px;
@@ -45,6 +59,7 @@
 }
 
 .container-fluid {
+  width: 100%;
   display: flex;
   padding-left: 200px;
   padding-right: 600px;
@@ -53,10 +68,12 @@
 }
 
 .nav-bar {
+  width: 100%;
   color: darkgray;
 }
 
 .col-2 {
+  width: 100%;
   background-color: white;
   border: 5px solid;
   width: 1350px;
@@ -66,5 +83,13 @@
   border: 5px solid;
 }
 .col-3 {
+  width: 100%;
   background-color: dodgerblue;
+}
+.container-dois{
+  width: 100%;
+  margin-top: 550px;
+  display: flex;
+  padding-left:10.5%;
+  padding-right: 40%;
 }
