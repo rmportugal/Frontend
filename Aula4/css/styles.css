@@ -47,9 +47,7 @@ h1 {
 
 .container,
 .container-fluid {
-  border: 5px dotted midnightblue;
-  padding: 20px;
-  margin-bottom: 10px;
+
 }
 
 .row {

@@ -1,0 +1,71 @@
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #343541;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(32, 33, 35);
+  height: 100%;
+  width: 14%;
+}
+
+.btn-secondary {
+  display: flex;
+  margin: 10px auto;
+  width: 225px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.212);
+  font-size: 13px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form-floating > .form-control,
+.form-floating > .form-control-plaintext {
+  padding: 1rem 0.75rem;
+  width: 700px;
+  height: 40px;
+  background-color: transparent;
+  color: transparent;
+}
+
+.form-label {
+  align-items: center;
+  color: rgba(255, 255, 255, 0.37);
+}
+
+h2 {
+
+  color: white;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 22%;
+  left:57%;
+  transform: translate(-50%, -50%);
+}
+.containertres{
+  border: 5px dotted rgb(255, 255, 255);
+  color: white;
+  padding: 20px;
+
+}
